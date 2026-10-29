@@ -1,2 +1,2 @@
-# SSI-Simple-System-Installer
+# SSI
 yeha
