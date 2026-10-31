@@ -12,10 +12,14 @@ sleep 1
 
 
 
+#Checking System upd
 apt update   -y
+
+#SIS-Server
 apt install nginx  apache2  caddy  lighttpd ssh openssh-server  samba  nfs-kernel-server
 postfix  devecot-core dnsmasq dnsutils bind9 proftpd  squid  mariadb-server  postgresql
 isc-dhcp-server
 
+System
 
 echo "Service Completed."
