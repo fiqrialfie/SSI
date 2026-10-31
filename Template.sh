@@ -16,6 +16,15 @@ set -euo pipefail
  
 	echo -e "${CYAN}[-------------------------]${RESET}"
  sleep 0.5
+#New line. prevention missing letters
+printf "\n"
 sleep 1
-  	printf "${YELLOW}[Initializing....................]${RESET}"
-sleep
+
+#Text Progression With Loop
+dots=""
+for i in {1..20}; do
+  (( ${#dots} < 4 )) && dots+="."
+  printf "\r${YELLOW}[Initializing ${dots}]${RESET}"
+  sleep 0.3
+done
+printf "\n"

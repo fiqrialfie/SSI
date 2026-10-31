@@ -12,3 +12,4 @@ set -euo pipefail
 	echo -e "${CYAN}[-------------------------]${RESET}"
 
 echo -e "${YELLOW}Initializing...${RESET}"
+
